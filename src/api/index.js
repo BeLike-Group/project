@@ -1,9 +1,8 @@
 import axios from "axios";
 
 const api = axios.create({
-
-  baseURL: "https://projectbackend-production-2aa3.up.railway.app/api/",
-
+  baseURL: "https://projectbackend-piia.onrender.com/api/",
+  
 });
 //admin
 export const insertFlight = (payload) =>
